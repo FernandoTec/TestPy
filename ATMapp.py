@@ -1,6 +1,4 @@
-{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
-{\*\generator Riched20 10.0.10586}\viewkind4\uc1 
-\pard\sa200\sl276\slmult1\f0\fs22\lang9 name = input("Please enter userId:\\n")\par
+name = input("Please enter userId:\\n")
 authUsers = ['Fernando','Seyi','fapra']\par
 authPassword = ['passFern','passSeyi','passfapra']\par
 if(name in authUsers):\par
@@ -99,4 +97,3 @@ if(name in authUsers):\par
         print('Incorrect Password \\n''Please try again' '\\n')\par
 else:\par
     print('Name not Authorized' '\\n''Please Try Again' '\\n')\par
-}
